@@ -58,4 +58,3 @@ def require_type(text, expected):
     if not isinstance(value, expected):
         raise ValueError(f'Expected a JSONC {expected.__name__}')
     return value
-
