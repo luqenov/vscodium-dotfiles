@@ -1,0 +1,120 @@
+{
+  "window.zoomLevel": 0.25,
+  "window.titleBarStyle": "custom",
+  "window.commandCenter": false,
+  "window.newWindowProfile": "Default",
+  "workbench.startupEditor": "none",
+  "workbench.activityBar.location": "top",
+  "workbench.layoutControl.enabled": false,
+  "workbench.editor.labelFormat": "short",
+  "workbench.iconTheme": "bearded-icons",
+  "workbench.colorTheme": "One Dark Pro Night Flat",
+  "workbench.statusBar.visible": true,
+  "workbench.tree.indent": 20,
+  "breadcrumbs.enabled": false,
+
+  "editor.fontFamily": "FiraCode Nerd Font",
+  "editor.fontLigatures": "'calt', 'ss01'",
+  "editor.fontSize": 14,
+  "editor.fontWeight": "normal",
+  "editor.lineHeight": 18,
+  "editor.letterSpacing": 0.5,
+  "editor.rulers": [100, 120],
+  "editor.minimap.enabled": false,
+  "editor.renderLineHighlight": "gutter",
+  "editor.renderWhitespace": "none",
+  "editor.renderControlCharacters": false,
+  "editor.scrollbar.vertical": "visible",
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.insertSpaces": false,
+  "editor.tabSize": 4,
+  "files.insertFinalNewline": true,
+
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontWeight": "400",
+  "terminal.integrated.fontWeightBold": "600",
+  "terminal.integrated.gpuAcceleration": "on",
+
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.compactFolders": false,
+  "explorer.fileNesting.enabled": true,
+
+  "search.useIgnoreFiles": false,
+  "telemetry.telemetryLevel": "off",
+
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 500,
+  "files.eol": "\n",
+  "editor.wordWrap": "on",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "biome.lsp.bin": "/usr/bin/biome",
+
+  "python.analysis.typeCheckingMode": "off",
+  "python.analysis.diagnosticSeverityOverrides": {
+    "reportOptionalMemberAccess": "none"
+  },
+  "python.createEnvironment.trigger": "off",
+
+  "editor.inlineSuggest.enabled": true,
+  "editor.inlineSuggest.edits.showCollapsed": true,
+  "editor.acceptSuggestionOnEnter": "on",
+  "editor.tabCompletion": "onlySnippets",
+  "editor.semanticHighlighting.enabled": false,
+  "js/ts.suggest.paths": false,
+  "js/ts.inlayHints.enumMemberValues.enabled": true,
+  "js/ts.inlayHints.functionLikeReturnTypes.enabled": true,
+  "js/ts.inlayHints.parameterNames.enabled": "all",
+  "js/ts.inlayHints.parameterTypes.enabled": true,
+  "js/ts.inlayHints.propertyDeclarationTypes.enabled": true,
+  "js/ts.inlayHints.variableTypes.enabled": true,
+
+  "liveServer.settings.donotVerifyTags": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+
+  "vscord.app.name": "VSCodium",
+
+  "vscord.status.details.text.editing": "{current_line} | {file_name}",
+  "vscord.status.state.text.editing": "in {workspace}",
+  "vscord.status.image.large.editing.text": "{lang_name}",
+  "vscord.status.image.small.editing.text": "normies, OUT.",
+
+  "vscord.status.details.text.debugging": "debugging {file_name} | {current_line} | {current_column}",
+  "vscord.status.state.text.debugging": "coding: {workspace} {problems}",
+  "vscord.status.state.debugging.enabled": true,
+
+  "vscord.status.details.text.idle": "laying back, coding...",
+  "vscord.status.state.text.idle": "normies, OUT.",
+  "vscord.status.image.large.idle.text": "zzz",
+  "vscord.status.image.small.idle.text": "zzz",
+
+  "vscord.status.details.text.notInFile": "laying back, coding...",
+  "vscord.status.state.text.notInFile": "",
+  "vscord.status.image.small.notInFile.text": "zzz",
+
+  "vscord.status.details.text.noWorkSpaceText": "w/o workspace",
+  "vscord.status.state.text.noWorkspaceFound": "idk where i am",
+
+  "vscord.status.problems.enabled": true,
+  "vscord.status.problems.text": "— {problems_count} crises",
+
+  "vscord.status.idle.enabled": true
+}
