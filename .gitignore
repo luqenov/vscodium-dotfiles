@@ -2,3 +2,11 @@ __pycache__/
 *.py[cod]
 .vscodium-backups/
 .vscodium-stage-*/
+
+/User/
+/vscodium/History/
+/vscodium/globalStorage/
+/vscodium/workspaceStorage/
+/vscodium/Backups/
+*.vscdb
+*.vscdb.backup

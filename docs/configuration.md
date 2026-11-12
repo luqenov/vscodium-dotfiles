@@ -27,6 +27,8 @@ The default user-data root is `$XDG_CONFIG_HOME/VSCodium` or `~/.config/VSCodium
 
 The scripts support the Default profile. Named profiles, portable builds and sandbox-specific layouts are not automatically discovered. Do not assume setting the window's default profile changes where these scripts read or write files. Keep `lib/` alongside both entry points.
 
+Private editor state such as `User/History`, workspace/global storage and `.vscdb` databases is excluded from Git. Transfer scripts copy only settings, keybindings, snippets and the extension ID list.
+
 ## Extension sources
 
 VSCodium uses Open VSX by default. If an ID fails to install, inspect the CLI error and check the author's published extension sources rather than repeatedly retrying. The script does not automatically query alternative registries.
