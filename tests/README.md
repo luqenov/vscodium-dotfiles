@@ -16,6 +16,17 @@ The script checks shell syntax, runs ShellCheck, validates the tracked JSONC/ext
 
 Tests create temporary repository/configuration trees and fake CLI programs. They do not invoke your real editor, modify your settings, install extensions or contact marketplaces. They do not establish compatibility with every VSCodium build or extension.
 
+## Output
+
+Normal runs show one line per check and a final test count. A small spinner appears only in interactive terminals; CI and redirected logs use static text. Failed checks show their diagnostics and keep the original exit status.
+
+```bash
+./check.sh --verbose
+./check.sh --plain
+```
+
+`--verbose` also shows successful command output and individual test results. `--plain` disables animation and colors. `NO_COLOR` disables colors, and `CI` disables terminal animation automatically.
+
 ## CI
 
 The Woodpecker workflow runs the same checks in one Debian container for main-branch pushes, pull requests and manual runs. Installing CI dependencies requires network access; the tests themselves do not.
